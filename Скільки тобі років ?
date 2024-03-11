@@ -1,0 +1,32 @@
+var age = prompt("Скільки вам років?");
+count = age % 100
+var year;
+
+if (age > 0) {
+if (count === 1) {
+year = (" рік.");
+}
+else if (count >= 5 && count <= 20) {
+year = (" років.");
+}
+else {
+        year = (" роки.");
+        }
+alert(`Вам ${age} ${year}`)
+}
+
+
+if (age <= 0) {
+        let user = promt(`Будь ласка, введіть свій справжній вік.`);    
+if (count === 1) {
+        year = (" рік.");
+        }
+else if (count >= 5 && count <= 20) {
+        year = (" років.");
+        }
+else {
+        year = (" роки.");
+                }
+alert(`Вам ${age} ${year}`)
+        }
+        
