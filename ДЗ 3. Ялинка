@@ -1,0 +1,6 @@
+        symb = "*";
+        let result = ""; 
+        for (var i = 1; i < 6; i++){
+                result += symb;
+                console.log(result)
+        }
