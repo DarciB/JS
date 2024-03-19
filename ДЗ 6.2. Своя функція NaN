@@ -1,0 +1,7 @@
+
+value = 1;
+
+if (typeof value !== "number") {
+        console.log(true)
+        }
+else {console.log(false)}
