@@ -1,0 +1,9 @@
+function pad(text, symbol, length, byl){
+if (byl === true)
+        return symbol.repeat(length-text.length)+text; 
+
+else
+        return text+symbol.repeat(length);
+}
+
+console.log(pad("Text", "#", 10, true));
